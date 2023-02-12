@@ -34,17 +34,17 @@
   <!-- 页面元数据 -->
   <title>c#笔记day3 - 唯梦依癸的博客</title>
   <meta name="keywords" content="Visual Studio,c#,null">
-  <meta desc name="description" content="Jcm - JCM - 唯梦依癸的博客">
+  <meta desc name="description" content="1.分支结构;2.异常捕获;3.选择结构;4.循环结构;5.断点调试。 - JCM - 唯梦依癸的博客">
   
 <meta property="og:type" content="article">
 <meta property="og:title" content="c#笔记day3">
 <meta property="og:url" content="http://example.com/2023/02/10/c-%E7%AC%94%E8%AE%B0day3/index.html">
 <meta property="og:site_name" content="唯梦依癸的博客">
-<meta property="og:description" content="c#笔记day3一：分支结构。1. if结构，先判断后执行，有可能不执行。 2.if-else结构，先判断后执行，else代表不满足if条件的其余所有情况，且else仅和离它最近的if配对。 3.if-else if-else结构，先判断if内容，再判断else if中，最后再判断else（所以有时else可以省略）。 二：异常捕获。如：输入abc等非数字类型就会抛异常。 12int a&#x3D;Conv">
+<meta property="og:description" content="1.分支结构;2.异常捕获;3.选择结构;4.循环结构;5.断点调试。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2023-02-10T06:26:53.000Z">
-<meta property="article:modified_time" content="2023-02-11T08:14:36.873Z">
+<meta property="article:modified_time" content="2023-02-12T15:04:40.973Z">
 <meta property="article:author" content="JCM">
 <meta property="article:tag" content="Visual Studio">
 <meta property="article:tag" content="c#">
@@ -1597,7 +1597,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1676130365894),
+    lastupdate: new Date(1676215647375),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","text"],
       for_post: ["toc"],
@@ -2447,9 +2447,11 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
 
   
-    <span hidden>
-      <meta itemprop="image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
-    </span>
+    <div class='headimg-div'>
+      <a class='headimg-a'>
+        <img itemprop="image" class='headimg' src='https://s2.loli.net/2023/02/12/75bsSLzt9FqBxG6.jpg'/>
+      </a>
+    </div>
   
   <div class="article-meta" id="top">
     
@@ -2558,10 +2560,10 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-02-11T16:14:36+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-02-12T23:04:40+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2023年2月11日</p>
+    <p>更新于：2023年2月12日</p>
   </a>
 </div>
 
@@ -3456,7 +3458,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/日常学习/","name":"日常学习"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/02/10/c-笔记day3/","name":"c#笔记day3"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"c#笔记day3","description":"Jcm","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/02/10/c-%E7%AC%94%E8%AE%B0day3/"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/02/10/c-%E7%AC%94%E8%AE%B0day3/","wordCount":0,"datePublished":"2023-02-10T06:26:53.000Z","dateModified":"2023-02-11T08:14:36.873Z","articleSection":"日常学习","keywords":"Visual Studio,c#","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/日常学习/","name":"日常学习"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/02/10/c-笔记day3/","name":"c#笔记day3"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"c#笔记day3","description":"1.分支结构;2.异常捕获;3.选择结构;4.循环结构;5.断点调试。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/02/10/c-%E7%AC%94%E8%AE%B0day3/"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/02/10/c-%E7%AC%94%E8%AE%B0day3/","wordCount":0,"datePublished":"2023-02-10T06:26:53.000Z","dateModified":"2023-02-12T15:04:40.973Z","articleSection":"日常学习","keywords":"Visual Studio,c#","image":{"@type":"ImageObject","url":"https://s2.loli.net/2023/02/12/75bsSLzt9FqBxG6.jpg","width":1024,"height":768}}]</script>
 
 
 
