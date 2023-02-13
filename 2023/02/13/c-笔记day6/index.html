@@ -32,19 +32,19 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>c#笔记day6 - 唯梦依癸的博客</title>
+  <title>c#笔记day6-飞行棋 - 唯梦依癸的博客</title>
   <meta name="keywords" content="Visual Studio,c#,null">
   <meta desc name="description" content="1.游戏头;2.初始化地图;3.绘制地图;4.输入玩家姓名;5.清屏;6.输出姓名等文本;7.游戏玩家位置限定;8.游戏内的逻辑;9.源码。 - JCM - 唯梦依癸的博客">
   
 <meta property="og:type" content="article">
-<meta property="og:title" content="c#笔记day6">
+<meta property="og:title" content="c#笔记day6-飞行棋">
 <meta property="og:url" content="http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/index.html">
 <meta property="og:site_name" content="唯梦依癸的博客">
 <meta property="og:description" content="1.游戏头;2.初始化地图;3.绘制地图;4.输入玩家姓名;5.清屏;6.输出姓名等文本;7.游戏玩家位置限定;8.游戏内的逻辑;9.源码。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
 <meta property="article:published_time" content="2023-02-13T10:24:07.000Z">
-<meta property="article:modified_time" content="2023-02-13T09:22:07.758Z">
+<meta property="article:modified_time" content="2023-02-13T09:39:20.712Z">
 <meta property="article:author" content="JCM">
 <meta property="article:tag" content="Visual Studio">
 <meta property="article:tag" content="c#">
@@ -1597,7 +1597,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     debug: "env",
     cdn: {"js":{"app":"/js/app.js","parallax":"/js/plugins/parallax.js","rightMenu":"/js/plugins/rightMenu.js","rightMenus":"/js/plugins/rightMenus.js","sites":"/js/plugins/tags/sites.js","friends":"/js/plugins/tags/friends.js","contributors":"/js/plugins/tags/contributors.js","search":"/js/search/hexo.js"},"css":{"style":"/css/style.css"}},
     default: {"avatar":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/avatar/round/3442075.svg","link":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/link/8f277b4ee0ecd.svg","cover":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/cover/76b86c0226ffd.svg","image":"https://unpkg.com/volantis-static@0.0.1654736714924/media/placeholder/image/2659360.svg"},
-    lastupdate: new Date(1676280816031),
+    lastupdate: new Date(1676281527035),
     sidebar: {
       for_page: ["blogger","category","tagcloud","lastupdate","text"],
       for_post: ["toc"],
@@ -2456,13 +2456,13 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   <div class="article-meta" id="top">
     
     
-      <a title='c#笔记day6' href='/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/'>
+      <a title='c#笔记day6-飞行棋' href='/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/'>
         <img itemprop="image" class='thumbnail' src='https://s2.loli.net/2023/02/06/EbnLx7v1OeGDkKW.png'>
       </a>
     
     
       <h1 class="title" itemprop="name headline">
-        c#笔记day6
+        c#笔记day6-飞行棋
       </h1>
       <div class='new-meta-box'>
         
@@ -2519,7 +2519,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 
   <div id="layoutHelper-page-plugins"></div>
   <div id="post-body" itemprop="articleBody">
-    <h1 id="C-笔记第六天-飞行棋"><a href="#C-笔记第六天-飞行棋" class="headerlink" title="C#笔记第六天-飞行棋"></a><center>C#笔记第六天-飞行棋</h1><h2 id="一：游戏头。"><a href="#一：游戏头。" class="headerlink" title="一：游戏头。"></a>一：游戏头。</h2><p><img src="https://s2.loli.net/2023/02/13/9kzrFotv8c4wAmB.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/13/9kzrFotv8c4wAmB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+    <h1 id="C-笔记第六天"><a href="#C-笔记第六天" class="headerlink" title="C#笔记第六天"></a><center>C#笔记第六天</h1><h2 id="一：游戏头。"><a href="#一：游戏头。" class="headerlink" title="一：游戏头。"></a>一：游戏头。</h2><p><img src="https://s2.loli.net/2023/02/13/9kzrFotv8c4wAmB.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/13/9kzrFotv8c4wAmB.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
 <figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 游戏头</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">GameShow</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    Console.ForegroundColor = ConsoleColor.Yellow; <span class="comment">//调用Console类方法设置文字的前景色</span></span><br><span class="line">    Console.WriteLine(<span class="string">&quot;*************************&quot;</span>);</span><br><span class="line">    Console.ForegroundColor = ConsoleColor.Green;</span><br><span class="line">    Console.WriteLine(<span class="string">&quot;*************************&quot;</span>);</span><br><span class="line">    Console.ForegroundColor = ConsoleColor.Cyan;</span><br><span class="line">    Console.WriteLine(<span class="string">&quot;*******飞行棋小游戏*******&quot;</span>);</span><br><span class="line">    Console.ForegroundColor = ConsoleColor.Blue;</span><br><span class="line">    Console.WriteLine(<span class="string">&quot;*************************&quot;</span>);</span><br><span class="line">    Console.ForegroundColor = ConsoleColor.Red;</span><br><span class="line">    Console.WriteLine(<span class="string">&quot;*************************&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 
 <h2 id="二：初始化地图。"><a href="#二：初始化地图。" class="headerlink" title="二：初始化地图。"></a>二：初始化地图。</h2><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">static</span> <span class="built_in">int</span>[] Maps = <span class="keyword">new</span> <span class="built_in">int</span>[<span class="number">100</span>]; <span class="comment">//定义全局字段</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;summary&gt;</span></span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> 初始化地图</span></span><br><span class="line"><span class="comment"><span class="doctag">///</span> <span class="doctag">&lt;/summary&gt;</span></span></span><br><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">InitMap</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="built_in">int</span>[] luckyturn = &#123; <span class="number">6</span>, <span class="number">23</span>, <span class="number">40</span>,<span class="number">55</span>,<span class="number">69</span>,<span class="number">83</span> &#125;;  <span class="comment">//幸运轮盘◎</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; luckyturn.Length; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        Maps[luckyturn[i]] = <span class="number">1</span>; <span class="comment">//0是□，1是◎</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">int</span>[] landMine = &#123; <span class="number">5</span>,<span class="number">13</span>,<span class="number">17</span>,<span class="number">33</span>,<span class="number">38</span>,<span class="number">50</span>,<span class="number">64</span>,<span class="number">80</span>,<span class="number">94</span>&#125;;  <span class="comment">//地雷☆</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; landMine.Length; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        Maps[landMine[i]] = <span class="number">2</span>; <span class="comment">//2是☆</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">int</span>[] pause = &#123; <span class="number">9</span>, <span class="number">27</span>, <span class="number">60</span>, <span class="number">93</span> &#125;; <span class="comment">//暂停▲</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; pause.Length; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        Maps[pause[i]] = <span class="number">3</span>; <span class="comment">//3是▲</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="built_in">int</span>[] timeTunnel = &#123; <span class="number">20</span>, <span class="number">25</span>, <span class="number">45</span>, <span class="number">63</span>, <span class="number">72</span>, <span class="number">88</span>, <span class="number">90</span> &#125;;  <span class="comment">//时空隧道卐</span></span><br><span class="line">    <span class="keyword">for</span> (<span class="built_in">int</span> i = <span class="number">0</span>; i &lt; timeTunnel.Length; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        Maps[timeTunnel[i]] = <span class="number">4</span>; <span class="comment">//4是卐</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
@@ -2570,7 +2570,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-02-13T17:22:07+08:00">
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-02-13T17:39:20+08:00">
   <a class='notlink'>
     <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
     <p>更新于：2023年2月13日</p>
@@ -2596,7 +2596,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/&title=c#笔记day6 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/06/EbnLx7v1OeGDkKW.png&summary="
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/&title=c#笔记day6-飞行棋 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/06/EbnLx7v1OeGDkKW.png&summary="
           
           >
           
@@ -2608,7 +2608,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/&title=c#笔记day6 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/06/EbnLx7v1OeGDkKW.png&summary="
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/&title=c#笔记day6-飞行棋 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/06/EbnLx7v1OeGDkKW.png&summary="
           
           >
           
@@ -2620,7 +2620,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
           
-          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/&title=c#笔记day6 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/06/EbnLx7v1OeGDkKW.png&summary="
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/&title=c#笔记day6-飞行棋 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/06/EbnLx7v1OeGDkKW.png&summary="
           
           >
           
@@ -2655,14 +2655,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       
         <a class='prev' href='/2023/02/14/c-%E7%AC%94%E8%AE%B0day7/'>
           <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>c#笔记day7</p>
-          <p class='content'></p>
+          <p class='content'>C#笔记第七天</p>
         </a>
       
       
         <a class='next' href='/2023/02/12/c-%E7%AC%94%E8%AE%B0day5/'>
-          <p class='title'>c#笔记day5<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
-          <p class='content'>c#笔记day5一：out、ref、params参数。1.out参数。
-1234567891011121314151617181920212223242526272829303132333435...</p>
+          <p class='title'>c#笔记day5-方法<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>c#笔记day5一：方法。1.方法的定义和使用。
+123456789101112131415161718static void Main(string[] args)&#123;     int...</p>
         </a>
       
     </div>
@@ -3467,7 +3467,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/日常学习/","name":"日常学习"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/02/13/c-笔记day6/","name":"c#笔记day6"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"c#笔记day6","description":"1.游戏头;2.初始化地图;3.绘制地图;4.输入玩家姓名;5.清屏;6.输出姓名等文本;7.游戏玩家位置限定;8.游戏内的逻辑;9.源码。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/","wordCount":0,"datePublished":"2023-02-13T10:24:07.000Z","dateModified":"2023-02-13T09:22:07.758Z","articleSection":"日常学习","keywords":"Visual Studio,c#","image":{"@type":"ImageObject","url":"https://s2.loli.net/2023/02/12/W76K5ebnD1MUNRF.jpg","width":1024,"height":768}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/日常学习/","name":"日常学习"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/02/13/c-笔记day6/","name":"c#笔记day6-飞行棋"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"c#笔记day6-飞行棋","description":"1.游戏头;2.初始化地图;3.绘制地图;4.输入玩家姓名;5.清屏;6.输出姓名等文本;7.游戏玩家位置限定;8.游戏内的逻辑;9.源码。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/","wordCount":0,"datePublished":"2023-02-13T10:24:07.000Z","dateModified":"2023-02-13T09:39:20.712Z","articleSection":"日常学习","keywords":"Visual Studio,c#","image":{"@type":"ImageObject","url":"https://s2.loli.net/2023/02/12/W76K5ebnD1MUNRF.jpg","width":1024,"height":768}}]</script>
 
 
 
