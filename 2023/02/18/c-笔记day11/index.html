@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.7.7">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://example.com/tags/visual-studio/page/2/"/>
+  
+  <link rel="canonical" href="http://example.com/2023/02/18/c-笔记day11/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -32,18 +32,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>标签：Visual Studio - 唯梦依癸的博客</title>
-  <meta name="keywords" content="null">
+  <title>c#笔记day11 - 唯梦依癸的博客</title>
+  <meta name="keywords" content="Visual Studio,c#,null">
   <meta desc name="description" content="Jcm - JCM - 唯梦依癸的博客">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="唯梦依癸的博客">
-<meta property="og:url" content="http://example.com/tags/Visual-Studio/page/2/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="c#笔记day11">
+<meta property="og:url" content="http://example.com/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/index.html">
 <meta property="og:site_name" content="唯梦依癸的博客">
-<meta property="og:description" content="Jcm">
+<meta property="og:description" content="c#笔记第十一天一：FileStream和StreamReader。(相比File类，这两种可以操作大文件)1.利用FileStream来读写文件。123456789101112131415161718192021222324252627static void Main(string[] args)&amp;#123;    &#x2F;&#x2F;FileStream 操作字节的，可以操作图片等格式    --------">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-02-18T14:16:30.000Z">
+<meta property="article:modified_time" content="2023-02-18T14:25:19.080Z">
 <meta property="article:author" content="JCM">
+<meta property="article:tag" content="Visual Studio">
+<meta property="article:tag" content="c#">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2347,7 +2351,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper  search' style="display: none;">
+      <div id="none" class='cover-wrapper post search' style="display: none;">
         
   <div id="parallax-window"></div>
 
@@ -2429,19 +2433,9 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/08/c-笔记day1/">
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
+  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/18/c-笔记day11/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="唯梦依癸的博客">
   </span>
@@ -2450,151 +2444,258 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="Jcm">
   </span>
   
-  
+
+
   
     <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/08/c-%E7%AC%94%E8%AE%B0day1/">
-        <img itemprop="image" class='headimg' alt="c#笔记day1-基础" src='https://s2.loli.net/2023/02/12/2dBWLDaufKJFXcA.jpg'/>
+      <a class='headimg-a'>
+        <img itemprop="image" class='headimg' src='https://s2.loli.net/2023/02/18/VNPgmC2qwMjI5y1.jpg'/>
       </a>
     </div>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/08/c-%E7%AC%94%E8%AE%B0day1/"  itemprop="url">
-        c#笔记day1-基础
+    
+      <a title='c#笔记day11' href='/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/'>
+        <img itemprop="image" class='thumbnail' src='https://s2.loli.net/2023/02/15/Tbc97sLNECGWKwB.jpg'>
       </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
     
-      <p>1.c#代码组成;2.两行代码;3.VS基本设置;4.注释;5.变量。</p>
     
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
+      <h1 class="title" itemprop="name headline">
+        c#笔记day11
+      </h1>
+      <div class='new-meta-box'>
         
-        <time itemprop="dateCreated datePublished" datetime="2023-02-08T20:09:42+08:00">2023-02-08</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
           
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/08/c-%E7%AC%94%E8%AE%B0day1/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="" rel="nofollow">
+    <img itemprop="image" src="https://s2.loli.net/2023/02/06/YcCF7O8idhXqnLs.jpg" class="lazyload" data-srcset="https://s2.loli.net/2023/02/06/YcCF7O8idhXqnLs.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">简</p>
+  </a>
 </div>
 
-          </div>
+          
         
+          
+            
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
+      </span>
+    
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-02-18T22:16:30+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2023年2月18日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h1 id="c-笔记第十一天"><a href="#c-笔记第十一天" class="headerlink" title="c#笔记第十一天"></a><center>c#笔记第十一天</h1><h2 id="一：FileStream和StreamReader。-相比File类，这两种可以操作大文件"><a href="#一：FileStream和StreamReader。-相比File类，这两种可以操作大文件" class="headerlink" title="一：FileStream和StreamReader。(相比File类，这两种可以操作大文件)"></a>一：FileStream和StreamReader。(相比File类，这两种可以操作大文件)</h2><h3 id="1-利用FileStream来读写文件。"><a href="#1-利用FileStream来读写文件。" class="headerlink" title="1.利用FileStream来读写文件。"></a>1.利用FileStream来读写文件。</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//FileStream 操作字节的，可以操作图片等格式</span></span><br><span class="line">    ----------</span><br><span class="line">    <span class="comment">//使用FileStream来读入数据</span></span><br><span class="line">    <span class="comment">//创建FileStream对象</span></span><br><span class="line">    FileStream fsRead = <span class="keyword">new</span> FileStream(<span class="string">@&quot;C:\Users\Administrator\Desktop\code.txt&quot;</span>,FileMode.OpenOrCreate,FileAccess.Read);</span><br><span class="line">    <span class="built_in">byte</span>[] buffer = <span class="keyword">new</span> <span class="built_in">byte</span>[<span class="number">1024</span>*<span class="number">1024</span>*<span class="number">5</span>];  <span class="comment">//5M大小的字节数组</span></span><br><span class="line">    <span class="comment">//返回本次实际读取到的有效字节数</span></span><br><span class="line">    <span class="built_in">int</span> r=fsRead.Read(buffer, <span class="number">0</span>, buffer.Length);  </span><br><span class="line">    <span class="comment">//将字节数组中每一个元素按照指定地点编码格式解码成字符串</span></span><br><span class="line">    <span class="built_in">string</span> s=Encoding.UTF8.GetString(buffer,<span class="number">0</span>,r);</span><br><span class="line">    <span class="comment">//关闭流</span></span><br><span class="line">    fsRead.Close();</span><br><span class="line">    <span class="comment">//GC如果回收不了，我们手动释放流所占用的资源</span></span><br><span class="line">    fsRead.Dispose();</span><br><span class="line">    Console.WriteLine(s);</span><br><span class="line">    ----------</span><br><span class="line">    <span class="comment">//使用FileStream来写入数据,using会自动帮助我们回收资源</span></span><br><span class="line">    <span class="keyword">using</span> (FileStream fsWrite = <span class="keyword">new</span> FileStream(<span class="string">@&quot;C:\Users\Administrator\Desktop\code.txt&quot;</span>, FileMode.OpenOrCreate, FileAccess.Write)) </span><br><span class="line">    &#123;</span><br><span class="line">        <span class="built_in">string</span> str = <span class="string">&quot;看有无覆盖&quot;</span>;</span><br><span class="line">        <span class="built_in">byte</span>[] buffer1=Encoding.UTF8.GetBytes(str);</span><br><span class="line">        fsWrite.Write(buffer1, <span class="number">0</span>, buffer1.Length);</span><br><span class="line">    &#125;</span><br><span class="line">    Console.WriteLine(<span class="string">&quot;写入成功&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-使用FileStream实现多媒体文件的复制。"><a href="#2-使用FileStream实现多媒体文件的复制。" class="headerlink" title="2.使用FileStream实现多媒体文件的复制。"></a>2.使用FileStream实现多媒体文件的复制。</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">public</span> <span class="keyword">static</span> <span class="keyword">void</span> <span class="title">CopyFile</span>(<span class="params"><span class="built_in">string</span> source,<span class="built_in">string</span> target</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//1.我们创建一个负责读取的流</span></span><br><span class="line">    <span class="keyword">using</span>(FileStream fsRead=<span class="keyword">new</span> FileStream(source, FileMode.Open, FileAccess.Read))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//2.创建一行负责写入的流</span></span><br><span class="line">        <span class="keyword">using</span>(FileStream fsWrite = <span class="keyword">new</span> FileStream(target, FileMode.OpenOrCreate, FileAccess.Write))</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="comment">//每次读取字节最多为5M</span></span><br><span class="line">            <span class="built_in">byte</span>[] buffer = <span class="keyword">new</span> <span class="built_in">byte</span>[<span class="number">1024</span> * <span class="number">1024</span> * <span class="number">5</span>];</span><br><span class="line">            <span class="comment">//因为文件可能会比较大，所以读取可能要通过循环</span></span><br><span class="line">            <span class="keyword">while</span> (<span class="literal">true</span>)</span><br><span class="line">            &#123;</span><br><span class="line">                <span class="comment">//返回本次实际读取到的字节数</span></span><br><span class="line">                <span class="built_in">int</span> r = fsRead.Read(buffer, <span class="number">0</span>, buffer.Length);</span><br><span class="line">                <span class="comment">//如果返回0，也就代表读取完了</span></span><br><span class="line">                <span class="keyword">if</span> (r == <span class="number">0</span>)</span><br><span class="line">                &#123;</span><br><span class="line">                    <span class="keyword">break</span>;</span><br><span class="line">                &#125;</span><br><span class="line">                fsWrite.Write(buffer, <span class="number">0</span>, r);</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-StreamReader和StreamWriter。-只能操作文本"><a href="#3-StreamReader和StreamWriter。-只能操作文本" class="headerlink" title="3.StreamReader和StreamWriter。(只能操作文本)"></a>3.StreamReader和StreamWriter。(只能操作文本)</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//StreamReader读文件</span></span><br><span class="line">    <span class="keyword">using</span>(StreamReader sr=<span class="keyword">new</span> StreamReader(<span class="string">@&quot;C:\Users\Administrator\Desktop\code.txt&quot;</span>,Encoding.UTF8))</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">while</span>(!sr.EndOfStream)  <span class="comment">//判断是否读到了文本结尾</span></span><br><span class="line">        &#123;</span><br><span class="line">            Console.WriteLine(sr.ReadLine());</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//StreamWriter写文件</span></span><br><span class="line">    <span class="keyword">using</span> (StreamWriter sw = <span class="keyword">new</span> StreamWriter(<span class="string">@&quot;C:\Users\Administrator\Desktop\code1.txt&quot;</span>,<span class="literal">true</span>))  <span class="comment">//后面参数true代表是追加内容</span></span><br><span class="line">    &#123;</span><br><span class="line">        sw.WriteLine(<span class="string">&quot;666&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二：多态。-为了让一个对象表现出多种类型，可以减少代码和屏蔽各个子类对象的差异"><a href="#二：多态。-为了让一个对象表现出多种类型，可以减少代码和屏蔽各个子类对象的差异" class="headerlink" title="二：多态。(为了让一个对象表现出多种类型，可以减少代码和屏蔽各个子类对象的差异)"></a>二：多态。(为了让一个对象表现出多种类型，可以减少代码和屏蔽各个子类对象的差异)</h2><h3 id="1-虚方法。"><a href="#1-虚方法。" class="headerlink" title="1. 虚方法。"></a><strong>1.</strong> 虚方法。</h3><p>Person父类：方法前添加virtual，允许子类重写方法</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//父类</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Person</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Person</span>(<span class="params"><span class="built_in">string</span> name</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">this</span>.Name = name;</span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//静态成员，都要使用类名调用</span></span><br><span class="line">    <span class="keyword">private</span>  <span class="built_in">string</span> _name;</span><br><span class="line">    <span class="keyword">public</span>  <span class="built_in">string</span> Name  </span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//当你输出属性值的时候(取值)，会执行get方法</span></span><br><span class="line">        <span class="keyword">get</span> &#123; <span class="keyword">return</span> <span class="keyword">this</span>._name; &#125;  </span><br><span class="line">        <span class="comment">//当你给属性赋值的时候，首先会执行set方法</span></span><br><span class="line">        <span class="keyword">set</span> &#123; <span class="keyword">this</span>._name = <span class="keyword">value</span>; &#125; </span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//父类中使用关键字virtual成虚方法，故能在子类中重写</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">virtual</span> <span class="keyword">void</span> <span class="title">SayHello</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Console.WriteLine(<span class="string">&quot;我叫&#123;0&#125;&quot;</span>, <span class="keyword">this</span>.Name);  </span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Chinese子类：方法前添加override，代表要重写方法</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Chinese</span>:<span class="title">Person</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Chinese</span>(<span class="params"><span class="built_in">string</span> name</span>):<span class="title">base</span>(<span class="params">name</span>)</span> </span><br><span class="line">    &#123; </span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//父类的SayHello是虚方法，子类重写，要加override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">SayHello</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Console.WriteLine(<span class="string">&quot;我是中国人，我叫&#123;0&#125;&quot;</span>,<span class="keyword">this</span>.Name);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Japanese子类：方法前添加override，代表要重写方法</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Japanese</span> : <span class="title">Person</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Japanese</span>(<span class="params"><span class="built_in">string</span> name</span>) : <span class="title">base</span>(<span class="params">name</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//父类的SayHello是虚方法，子类重写，要加override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">SayHello</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Console.WriteLine(<span class="string">&quot;八嘎，我叫&#123;0&#125;&quot;</span>,<span class="keyword">this</span>.Name);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Korea子类：方法前添加override，代表要重写方法</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Korea</span> : <span class="title">Person</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="title">Korea</span>(<span class="params"><span class="built_in">string</span> name</span>) : <span class="title">base</span>(<span class="params">name</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line">    <span class="comment">//父类的SayHello是虚方法，子类重写，要加override</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">SayHello</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Console.WriteLine(<span class="string">&quot;我是棒子，叫&#123;0&#125;&quot;</span>, <span class="keyword">this</span>.Name);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Main：实现多态的调用，分别输出对应对象的方法</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//实现多态的3种手段:1.虚方法 2.抽象类 3.接口</span></span><br><span class="line">    Chinese cn1=<span class="keyword">new</span> Chinese(<span class="string">&quot;张三&quot;</span>);</span><br><span class="line">    Japanese j1 = <span class="keyword">new</span> Japanese(<span class="string">&quot;树下君&quot;</span>);</span><br><span class="line">    Korea k1 = <span class="keyword">new</span> Korea(<span class="string">&quot;金秀贤&quot;</span>);</span><br><span class="line">    Person[] pers = &#123; cn1,j1,k1&#125;; <span class="comment">//创建父类数组存储子类对象</span></span><br><span class="line">    <span class="keyword">for</span>(<span class="built_in">int</span> i=<span class="number">0</span>;i&lt;pers.Length;i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//注：如果此处不用多态知识点，调用的仅是父类的方法</span></span><br><span class="line">        pers[i].SayHello(); <span class="comment">//虽调用的是父类Person的方法，但因为虚方法重写，所以对应输出的是pers[i]对象的方法</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-抽象类。-不知道父类如何实现方法时，就可以使用抽象类"><a href="#2-抽象类。-不知道父类如何实现方法时，就可以使用抽象类" class="headerlink" title="2.抽象类。(不知道父类如何实现方法时，就可以使用抽象类)"></a>2.抽象类。(不知道父类如何实现方法时，就可以使用抽象类)</h3><p><img src="https://s2.loli.net/2023/02/18/dIYqJLxXC95RvlH.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/18/dIYqJLxXC95RvlH.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2023-2-18-c_笔记第十一天1.png"></p>
+<p>Animal父类：在类前面添加abstract成为抽象类，然后抽象方法前也要加abstract；但抽象方法不允许有方法体，故只能让子类来重写。</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">//抽象类中可以包含非抽象成员，子类只需要重写抽象成员</span></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class</span> <span class="title">Animal</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//在父类知晓如何实现方法时，就使用虚方法</span></span><br><span class="line">    <span class="comment">//而不知道父类如何实现方法时，就可以使用抽象类，这样父类的方法就可以不用写方法体，让子类写</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">//抽象方法不允许有方法体，且抽象方法只能出现在抽象类中</span></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">void</span> <span class="title">Bark</span>()</span>;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Test</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//有方法体，但是空实现</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Dog子类(非抽象类)：重写抽象方法</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Dog</span>:<span class="title">Animal</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">Bark</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Console.WriteLine(<span class="string">&quot;狗狗旺旺的叫&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Cat子类(非抽象类)：重写抽象方法</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">Cat</span>:<span class="title">Animal</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">override</span> <span class="keyword">void</span> <span class="title">Bark</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Console.WriteLine(<span class="string">&quot;猫咪喵喵的叫&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p>Main类：抽象类的调用，只能通过申明父类类型去指向子类的对象</p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">static</span> <span class="keyword">void</span> <span class="title">Main</span>(<span class="params"><span class="built_in">string</span>[] args</span>)</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//实现多态的3种手段:1.虚方法 2.抽象类 3.接口</span></span><br><span class="line">    <span class="comment">//Animal a=new Animal(); //抽象类不允许创建自己的对象</span></span><br><span class="line">    Animal a = <span class="keyword">new</span> Dog();</span><br><span class="line">    a.Bark();  <span class="comment">//调用子类的对象</span></span><br><span class="line">    Animal b = <span class="keyword">new</span> Cat();</span><br><span class="line">    b.Bark(); </span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="3-接口。"><a href="#3-接口。" class="headerlink" title="3.接口。"></a>3.接口。</h3><h2 id="三：访问修饰符。"><a href="#三：访问修饰符。" class="headerlink" title="三：访问修饰符。"></a>三：访问修饰符。</h2><p><img src="https://s2.loli.net/2023/02/18/jNnaR2MVBzJSt8x.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/18/jNnaR2MVBzJSt8x.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2023-2-18-c_笔记第十一天2.png"></p>
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/08/VS2022和Github代码仓库的上传同步教程/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/08/VS2022%E5%92%8CGithub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E7%9A%84%E4%B8%8A%E4%BC%A0%E5%90%8C%E6%AD%A5%E6%95%99%E7%A8%8B/">
-        <img itemprop="image" class='headimg' alt="VS2022和Github代码仓库的上传同步教程" src='https://s2.loli.net/2023/02/12/OXf4yLidochCzkB.jpg'/>
-      </a>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
+      
     </div>
   
   
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/08/VS2022%E5%92%8CGithub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E7%9A%84%E4%B8%8A%E4%BC%A0%E5%90%8C%E6%AD%A5%E6%95%99%E7%A8%8B/"  itemprop="url">
-        VS2022和Github代码仓库的上传同步教程
-      </a>
-    </h2>
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-02-18T22:25:19+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2023年2月18日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
   
-  <div class='md article-desc' itemprop="articleBody">
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Visual-Studio/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>Visual Studio</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/c/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>c#</p></a></div>
+  <span hidden itemprop="keywords">Visual Studio c#</span>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
       
-        VS2022和Github代码仓库的上传同步1.使用visual studio，具体下载安装过程就不说了，新建项目，然后创建源代码模板进来后，点击右下角的添加到源代码管理，选择git。
-2.进来后，把下面的信息github 相连即可，然后创建并推送，然后就会在github你的存储库中创建成功。
-
-3.在vs中，右下角就会发生变化。
-4.点击右下角的小笔，然后右边栏就会变为Git更改。
-5.修...
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/&title=c#笔记day11 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/15/Tbc97sLNECGWKwB.jpg&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/&title=c#笔记day11 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/15/Tbc97sLNECGWKwB.jpg&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/&title=c#笔记day11 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/15/Tbc97sLNECGWKwB.jpg&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
       
     
   </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
+</div>
+
+
+
         
-        <time itemprop="dateCreated datePublished" datetime="2023-02-08T15:24:51+08:00">2023-02-08</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%95%99%E7%A8%8B/">教程</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%95%99%E7%A8%8B/" itemprop="url"><span itemprop="name">教程</span></a>
-            </span>
-          
-        
-      </div>
       
-        <div>
-          <a class='readmore' href='/2023/02/08/VS2022%E5%92%8CGithub%E4%BB%A3%E7%A0%81%E4%BB%93%E5%BA%93%E7%9A%84%E4%B8%8A%E4%BC%A0%E5%90%8C%E6%AD%A5%E6%95%99%E7%A8%8B/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
+    </div>
+    <!-- Custom Files bottomMeta begin -->
+    
+    <!-- Custom Files bottomMeta end -->
+  </div>
+
+
+  
+  
+
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2023/02/17/c-%E7%AC%94%E8%AE%B0day10/'>
+          <p class='title'>c#笔记day10-Hashtable、List、字典集合<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>c#笔记第十天一：Hashtable集合。1.var推断类型。（缺点：初始化时必须赋初值）
+
+2.Hashtable的使用。12345678910111213141516171819202122...</p>
+        </a>
       
     </div>
   
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
+  <!-- Custom Files postEnd begin-->
   
-    
-      <br>
-      <div class="prev-next">
-        
-          <a class="prev" rel="prev" href="/tags/Visual-Studio/">
-            <section class="post prev white-box shadow floatable blur" >
-              <i class="fa-solid fa-chevron-left" aria-hidden="true"></i>&nbsp;上一页&nbsp;
-            </section>
-          </a>
-        
-        <p class="current">
-          2 / 2
-        </p>
-        
-      </div>
-    
+  <!-- Custom Files postEnd end-->
+</article>
+
+
   
 
 
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-  
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -2603,185 +2704,56 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
-    
-      
-        <div class='avatar'>
-          <img no-lazy src='https://s2.loli.net/2023/02/06/YcCF7O8idhXqnLs.jpg'/>
-        </div>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>唯梦依癸</h2>
-        
-        
-        
-          <p><span id="jinrishici-sentence">唯梦依癸的博客</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:2232352247@qq.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/jcm111859242"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop pjax">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%95%99%E7%A8%8B/" href="/categories/%E6%95%99%E7%A8%8B/"
-            active-action="action-categoriesE69599E7A88B"
-            ><div class='name'>教程</div><div class='badge'>(4)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/"
-            active-action="action-categoriesE697A5E5B8B8E5ADA6E4B9A0"
-            ><div class='name'>日常学习</div><div class='badge'>(11)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/Github/" style="font-size: 14px; color: #999">Github</a> <a href="/tags/Makedown/" style="font-size: 14px; color: #999">Makedown</a> <a href="/tags/PicGo/" style="font-size: 14px; color: #999">PicGo</a> <a href="/tags/SM-MS/" style="font-size: 14px; color: #999">SM.MS</a> <a href="/tags/Visual-Studio/" style="font-size: 24px; color: #555">Visual Studio</a> <a href="/tags/c/" style="font-size: 20.67px; color: #6c6c6c">c#</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 14px; color: #999">前端</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 17.33px; color: #828282">博客</a>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-
-<section class="widget desktop mobile pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-clock WISTERIA fa-fw" aria-hidden="true"></i><span class='name'>最近更新</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/"><div class="item"><time>2023-02-18</time><span>日常学习</span></div><span>c#笔记day11</span></a></li><li><a class="widget-last" href="/2023/02/17/c-%E7%AC%94%E8%AE%B0day10/"><div class="item"><time>2023-02-18</time><span>日常学习</span></div><span>c#笔记day10-Hashtable、List、字典集合</span></a></li><li><a class="widget-last" href="/2023/02/14/c-%E7%AC%94%E8%AE%B0day7/"><div class="item"><time>2023-02-18</time><span>日常学习</span></div><span>c#笔记day7-面向对象和类</span></a></li><li><a class="widget-last" href="/2023/02/16/c-%E7%AC%94%E8%AE%B0day9/"><div class="item"><time>2023-02-17</time><span>日常学习</span></div><span>c#笔记day9-里式转换</span></a></li><li><a class="widget-last" href="/2023/02/15/c-%E7%AC%94%E8%AE%B0day8/"><div class="item"><time>2023-02-15</time><span>日常学习</span></div><span>c#笔记day8-字符串和继承</span></a></li></ul>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-<section class="widget text desktop mobile pjax">
-  
-  <header>
-    
-      <a target="_blank" rel="noopener" href='https://github.com/jcm111859242'><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class='name'>点个赞吧</span></a>
-    
-  </header>
-
-
-  <div class='content'>
-    
-      <p>感谢你能够来到我的博客，一步一个脚印，大家一起加油!</p>
-
-    
-  </div>
-</section>
-
     
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%EF%BC%9AFileStream%E5%92%8CStreamReader%E3%80%82-%E7%9B%B8%E6%AF%94File%E7%B1%BB%EF%BC%8C%E8%BF%99%E4%B8%A4%E7%A7%8D%E5%8F%AF%E4%BB%A5%E6%93%8D%E4%BD%9C%E5%A4%A7%E6%96%87%E4%BB%B6"><span class="toc-text">一：FileStream和StreamReader。(相比File类，这两种可以操作大文件)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%88%A9%E7%94%A8FileStream%E6%9D%A5%E8%AF%BB%E5%86%99%E6%96%87%E4%BB%B6%E3%80%82"><span class="toc-text">1.利用FileStream来读写文件。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E4%BD%BF%E7%94%A8FileStream%E5%AE%9E%E7%8E%B0%E5%A4%9A%E5%AA%92%E4%BD%93%E6%96%87%E4%BB%B6%E7%9A%84%E5%A4%8D%E5%88%B6%E3%80%82"><span class="toc-text">2.使用FileStream实现多媒体文件的复制。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-StreamReader%E5%92%8CStreamWriter%E3%80%82-%E5%8F%AA%E8%83%BD%E6%93%8D%E4%BD%9C%E6%96%87%E6%9C%AC"><span class="toc-text">3.StreamReader和StreamWriter。(只能操作文本)</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%EF%BC%9A%E5%A4%9A%E6%80%81%E3%80%82-%E4%B8%BA%E4%BA%86%E8%AE%A9%E4%B8%80%E4%B8%AA%E5%AF%B9%E8%B1%A1%E8%A1%A8%E7%8E%B0%E5%87%BA%E5%A4%9A%E7%A7%8D%E7%B1%BB%E5%9E%8B%EF%BC%8C%E5%8F%AF%E4%BB%A5%E5%87%8F%E5%B0%91%E4%BB%A3%E7%A0%81%E5%92%8C%E5%B1%8F%E8%94%BD%E5%90%84%E4%B8%AA%E5%AD%90%E7%B1%BB%E5%AF%B9%E8%B1%A1%E7%9A%84%E5%B7%AE%E5%BC%82"><span class="toc-text">二：多态。(为了让一个对象表现出多种类型，可以减少代码和屏蔽各个子类对象的差异)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E8%99%9A%E6%96%B9%E6%B3%95%E3%80%82"><span class="toc-text">1. 虚方法。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E6%8A%BD%E8%B1%A1%E7%B1%BB%E3%80%82-%E4%B8%8D%E7%9F%A5%E9%81%93%E7%88%B6%E7%B1%BB%E5%A6%82%E4%BD%95%E5%AE%9E%E7%8E%B0%E6%96%B9%E6%B3%95%E6%97%B6%EF%BC%8C%E5%B0%B1%E5%8F%AF%E4%BB%A5%E4%BD%BF%E7%94%A8%E6%8A%BD%E8%B1%A1%E7%B1%BB"><span class="toc-text">2.抽象类。(不知道父类如何实现方法时，就可以使用抽象类)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E6%8E%A5%E5%8F%A3%E3%80%82"><span class="toc-text">3.接口。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%89%EF%BC%9A%E8%AE%BF%E9%97%AE%E4%BF%AE%E9%A5%B0%E7%AC%A6%E3%80%82"><span class="toc-text">三：访问修饰符。</span></a></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -2813,13 +2785,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -3498,7 +3471,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/tags/Visual Studio/","name":"Visual Studio"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"Jcm","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/日常学习/","name":"日常学习"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/02/18/c-笔记day11/","name":"c#笔记day11"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"c#笔记day11","description":"Jcm","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/","wordCount":0,"datePublished":"2023-02-18T14:16:30.000Z","dateModified":"2023-02-18T14:25:19.080Z","articleSection":"日常学习","keywords":"Visual Studio,c#","image":{"@type":"ImageObject","url":"https://s2.loli.net/2023/02/18/VNPgmC2qwMjI5y1.jpg","width":1024,"height":768}}]</script>
 
 
 
