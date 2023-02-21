@@ -5,8 +5,8 @@
   <meta name="Volantis" content="5.7.7">
   <meta charset="utf-8">
   <!-- SEO相关 -->
-  <meta name="robots" content="noindex,follow">
-  <link rel="canonical" href="http://example.com/tags/visual-studio/"/>
+  
+  <link rel="canonical" href="http://example.com/2023/02/21/c-笔记day12/"/>
   <!-- 渲染优化 -->
     <meta http-equiv='x-dns-prefetch-control' content='on' />
       <link rel='dns-prefetch' href='https://unpkg.com'>
@@ -32,18 +32,22 @@
 
   <!-- feed -->
   <!-- 页面元数据 -->
-  <title>标签：Visual Studio - 唯梦依癸的博客</title>
-  <meta name="keywords" content="null">
-  <meta desc name="description" content="Jcm - JCM - 唯梦依癸的博客">
+  <title>c#笔记day12-委托与事件 - 唯梦依癸的博客</title>
+  <meta name="keywords" content="Visual Studio,c#,null">
+  <meta desc name="description" content="1.委托。2.事件。 - JCM - 唯梦依癸的博客">
   
-<meta property="og:type" content="website">
-<meta property="og:title" content="唯梦依癸的博客">
-<meta property="og:url" content="http://example.com/tags/Visual-Studio/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="c#笔记day12-委托与事件">
+<meta property="og:url" content="http://example.com/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/index.html">
 <meta property="og:site_name" content="唯梦依癸的博客">
-<meta property="og:description" content="Jcm">
+<meta property="og:description" content="1.委托。2.事件。">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
+<meta property="article:published_time" content="2023-02-21T12:39:02.000Z">
+<meta property="article:modified_time" content="2023-02-21T11:48:24.629Z">
 <meta property="article:author" content="JCM">
+<meta property="article:tag" content="Visual Studio">
+<meta property="article:tag" content="c#">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:image" content="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png">
   <style>
@@ -2347,7 +2351,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
   
     
       <!-- see: /layout/_partial/scripts/_ctrl/coverCtrl.ejs -->
-      <div id="none" class='cover-wrapper  search' style="display: none;">
+      <div id="none" class='cover-wrapper post search' style="display: none;">
         
   <div id="parallax-window"></div>
 
@@ -2429,105 +2433,8 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
       <div id="safearea">
         <div class="body-wrapper">
           
-
 <div id="l_main" class=''>
-  
-    
-      
-  <section class="post-list">
-    
-      
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-          
-        
-      
-    
-    
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/22/设计模式/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/">
-        <img itemprop="image" class='headimg' alt="设计模式" src='https://s2.loli.net/2023/02/21/eYDyAhlvJGrk6xd.png'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"  itemprop="url">
-        设计模式
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.单例模式;2.观察者模式;</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-22T19:05:56+08:00">2023-02-22</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
+  <article itemscope itemtype="http://schema.org/Article" class="article post white-box reveal md shadow floatable blur article-type-post" id="post" itemscope itemprop="blogPost">
   <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/21/c-笔记day12/">
   <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
     <meta itemprop="name" content="唯梦依癸的博客">
@@ -2537,587 +2444,260 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     <meta itemprop="description" content="Jcm">
   </span>
   
-  
+
+
   
     <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/">
-        <img itemprop="image" class='headimg' alt="c#笔记day12-委托与事件" src='https://s2.loli.net/2023/02/21/hcwnIXgzUGA8OJL.png'/>
+      <a class='headimg-a'>
+        <img itemprop="image" class='headimg' src='https://s2.loli.net/2023/02/21/hcwnIXgzUGA8OJL.png'/>
       </a>
     </div>
   
-  
+  <div class="article-meta" id="top">
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/"  itemprop="url">
+    
+      <a title='c#笔记day12-委托与事件' href='/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/'>
+        <img itemprop="image" class='thumbnail' src='https://s2.loli.net/2023/02/15/k5TAO8viLu2DPaJ.jpg'>
+      </a>
+    
+    
+      <h1 class="title" itemprop="name headline">
         c#笔记day12-委托与事件
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.委托。2.事件。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
+      </h1>
+      <div class='new-meta-box'>
         
-        <time itemprop="dateCreated datePublished" datetime="2023-02-21T20:39:02+08:00">2023-02-21</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
           
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
+            
+<div class='new-meta-item author' itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <a itemprop="url" class='author' href="" rel="nofollow">
+    <img itemprop="image" src="https://s2.loli.net/2023/02/06/YcCF7O8idhXqnLs.jpg" class="lazyload" data-srcset="https://s2.loli.net/2023/02/06/YcCF7O8idhXqnLs.jpg" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+    <p itemprop="name">简</p>
+  </a>
 </div>
 
-          </div>
+          
         
+          
+            
+  <div class='new-meta-item category'>
+    <i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i>
+    <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
+    
+      <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
+        <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
+      </span>
+    
+  </div>
+
+
+          
+        
+          
+            <div class="new-meta-item date" itemprop="dateCreated datePublished" datetime="2023-02-21T20:39:02+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-calendar-alt fa-fw" aria-hidden="true"></i>
+    <p>发布于：2023年2月21日</p>
+  </a>
+</div>
+
+          
+        
+          
+            
+
+
+
+          
+        
+        <!-- Custom Files topMeta begin-->
+        
+        <!-- Custom Files topMeta end-->
+      </div>
+    
+  </div>
+
+
+  <div id="layoutHelper-page-plugins"></div>
+  <div id="post-body" itemprop="articleBody">
+    <h1 id="c-笔记第十二天"><a href="#c-笔记第十二天" class="headerlink" title="c#笔记第十二天"></a><center>c#笔记第十二天</h1><h2 id="一：委托。-引用类型"><a href="#一：委托。-引用类型" class="headerlink" title="一：委托。(引用类型)"></a>一：委托。(引用类型)</h2><h3 id="1-委托的定义和使用。"><a href="#1-委托的定义和使用。" class="headerlink" title="1.委托的定义和使用。"></a>1.委托的定义和使用。</h3><p><img src="https://s2.loli.net/2023/02/21/IabBzHT8uJ5MDUk.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/21/IabBzHT8uJ5MDUk.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System.Collections;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">HelloWorld</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">delegate</span> <span class="keyword">void</span> <span class="title">ShowDelegate</span>()</span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">delegate</span> <span class="keyword">void</span> <span class="title">ShowDelegate2</span>(<span class="params"><span class="built_in">int</span> a,<span class="built_in">int</span> b</span>)</span>;</span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="built_in">delegate</span> <span class="keyword">void</span> <span class="title">ShowDelegate3</span>&lt;<span class="title">T</span>&gt; (<span class="params">T a</span>)</span>;  <span class="comment">//泛型委托定义，前面加&lt;T&gt;，后面参数中才能使用T，T可以用任意类型代替</span></span><br><span class="line">    <span class="comment">// Start is called before the first frame update</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        ShowDelegate show1 = Show1;  <span class="comment">//delegate里面装的是函数，对应函数的参数要和delegate的参数一致</span></span><br><span class="line">        show1.Invoke();</span><br><span class="line"></span><br><span class="line">        ShowDelegate2 show2 = Show2;</span><br><span class="line">        show2.Invoke(<span class="number">1</span>,<span class="number">2</span>);</span><br><span class="line"></span><br><span class="line">        ShowDelegate3&lt;<span class="built_in">string</span>&gt; show3 = Show3;</span><br><span class="line">        show3.Invoke(<span class="string">&quot;Hello World!&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Update is called once per frame</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Update</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Show1</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;Show1&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Show2</span>(<span class="params"><span class="built_in">int</span> a,<span class="built_in">int</span> b</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;Show2-&gt;a+b:&quot;</span>+(a+b));  <span class="comment">//unity中Debug.Log不和Console类一样可以使用&#123;0&#125;代替</span></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">private</span> <span class="keyword">void</span> <span class="title">Show3</span>(<span class="params"><span class="built_in">string</span> a</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;show3-&gt;a:&quot;</span>+a);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-using-System命名空间内置的Action委托。-效果和delegate一样，同时是不带返回值的委托"><a href="#2-using-System命名空间内置的Action委托。-效果和delegate一样，同时是不带返回值的委托" class="headerlink" title="2.using System命名空间内置的Action委托。(效果和delegate一样，同时是不带返回值的委托)"></a>2.using System命名空间内置的Action委托。(效果和delegate一样，同时是不带返回值的委托)</h3><p><img src="https://s2.loli.net/2023/02/21/seAGSTPrQkgWuDF.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/21/seAGSTPrQkgWuDF.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="></p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Collections;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">HelloWorld</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">/*使用Action就无需delegate定义(其实Action委托底层就是delegate定义)</span></span><br><span class="line"><span class="comment">    public delegate void ShowDelegate();</span></span><br><span class="line"><span class="comment">    public delegate void ShowDelegate2(int a,int b);</span></span><br><span class="line"><span class="comment">    public delegate void ShowDelegate3&lt;T&gt; (T a);  //泛型委托定义，前面加&lt;T&gt;，后面参数中才能使用T，T可以用任意类型代替</span></span><br><span class="line"><span class="comment">    */</span></span><br><span class="line"></span><br><span class="line">    <span class="comment">// Start is called before the first frame update</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Action action1 =Show1;  <span class="comment">//使用方法和delegate一样</span></span><br><span class="line">        action1.Invoke();</span><br><span class="line"></span><br><span class="line">        Action&lt;<span class="built_in">int</span>, <span class="built_in">int</span>&gt; action2 = Show2;  <span class="comment">//Action重载很多，可以自己探索使用</span></span><br><span class="line">        action2.Invoke(<span class="number">1</span>,<span class="number">2</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">// Update is called once per frame</span></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Update</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Show1</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;Show1&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Show2</span>(<span class="params"><span class="built_in">int</span> a,<span class="built_in">int</span> b</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;Action:&quot;</span> + (a + b));</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="3-系统内置的Func委托。-带返回值的委托"><a href="#3-系统内置的Func委托。-带返回值的委托" class="headerlink" title="3.系统内置的Func委托。(带返回值的委托)"></a>3.系统内置的Func委托。(带返回值的委托)</h3><p><img src="https://s2.loli.net/2023/02/21/AlGqkBfS9t4nhNm.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/21/AlGqkBfS9t4nhNm.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2023-2-21-c_笔记第十二天3.png"></p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">using</span> System;</span><br><span class="line"><span class="keyword">using</span> System.Collections;</span><br><span class="line"><span class="keyword">using</span> System.Collections.Generic;</span><br><span class="line"><span class="keyword">using</span> UnityEngine;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">HelloWorld</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//Func可以没有参数，但必须带返回值(泛型内定义中，最后参数的数据类型是函数的返回值类型)</span></span><br><span class="line">        Func&lt;<span class="built_in">string</span>&gt; func1 = Show1;  </span><br><span class="line">        <span class="built_in">string</span> a = func1();</span><br><span class="line">        Debug.Log(a);</span><br><span class="line"></span><br><span class="line">        <span class="comment">//Func最后一个类型是返回值类型，前面的是参数类型，必须与函数中保持一致</span></span><br><span class="line">        Func&lt;<span class="built_in">int</span>, <span class="built_in">string</span>&gt; func2 = Show2;</span><br><span class="line">        func2(<span class="number">3</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Update</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">Show1</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="string">&quot;Show1&quot;</span>;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="comment">//对应的就是Func&lt;int,string&gt;，最后一个参数就是返回值类型，前面的是参数类型</span></span><br><span class="line">    <span class="function"><span class="built_in">string</span> <span class="title">Show2</span>(<span class="params"><span class="built_in">int</span> a</span>)</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">return</span> a.ToString();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<h3 id="4-匿名方法、多播委托。"><a href="#4-匿名方法、多播委托。" class="headerlink" title="4.匿名方法、多播委托。"></a>4.匿名方法、多播委托。</h3><p><img src="https://s2.loli.net/2023/02/21/b82ql3nYDdGPp49.png" class="lazyload" data-srcset="https://s2.loli.net/2023/02/21/b82ql3nYDdGPp49.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="2023-2-21-c_笔记第十二天4.png"></p>
+<h4 id="（1）匿名方法与lamda表达式。"><a href="#（1）匿名方法与lamda表达式。" class="headerlink" title="（1）匿名方法与lamda表达式。"></a>（1）匿名方法与lamda表达式。</h4><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//不用调入方法，直接写委托，就是匿名方法</span></span><br><span class="line">    Action action = <span class="built_in">delegate</span> (<span class="built_in">string</span> name)</span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;匿名方法&quot;</span>);</span><br><span class="line">    &#125;;</span><br><span class="line">    action.Invoke(<span class="string">&quot;张三&quot;</span>);</span><br><span class="line">    </span><br><span class="line">    <span class="comment">//lamda表达式缩写匿名方法</span></span><br><span class="line">    Action action1 = (name) =&gt;</span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;lamda表达式&quot;</span>);</span><br><span class="line">    &#125;;</span><br><span class="line">    action1.Invoke(<span class="string">&quot;张三&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h4 id="（2）多播委托。-使用-和-来添加和移除方法"><a href="#（2）多播委托。-使用-和-来添加和移除方法" class="headerlink" title="（2）多播委托。(使用+和-来添加和移除方法)"></a>（2）多播委托。(使用+和-来添加和移除方法)</h4><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    Action action = Show1;</span><br><span class="line">    action += Show2;  <span class="comment">//加可以实现方法的添加</span></span><br><span class="line">    action -= Show2;  <span class="comment">//减实现方法的移除</span></span><br><span class="line">    <span class="keyword">if</span> (action != <span class="literal">null</span>)  <span class="comment">//委托属于引用类型，引用类型的默认值是null，如果为空使用会报错空异常，所以在使用之前需要先判断委托(引用)对象是否为空</span></span><br><span class="line">    &#123;</span><br><span class="line">        action(); <span class="comment">//此时输出Show1</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Show1</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    Debug.Log(<span class="string">&quot;Show1&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Show2</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    Debug.Log(<span class="string">&quot;Show2&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-委托的作用与意义。"><a href="#5-委托的作用与意义。" class="headerlink" title="5.委托的作用与意义。"></a>5.委托的作用与意义。</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//思考：下面两种输出方式有什么不同？</span></span><br><span class="line">    <span class="comment">//答：显然，第一种方式里面i类似于指针，指向的是i的地址，只需要改变i中的内容，对应的输出值也会改变</span></span><br><span class="line">    <span class="built_in">int</span> i = <span class="number">6</span>;</span><br><span class="line">    Console.WriteLine(i);</span><br><span class="line">    <span class="comment">//而第二种，只能无脑的输出</span></span><br><span class="line">    Console.WriteLine(<span class="number">6</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<p><em>同理，委托里装的是方法，我们可以通过修改委托里生成的委托实例，来调用不同的方法。</em></p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//思考：下面两种输出方式有什么不同？</span></span><br><span class="line">    <span class="comment">//答：显然，第一种方式里面i类似于指针，指向的是i的地址，只需要改变i中的内容，对应的输出值也会改变</span></span><br><span class="line">    <span class="built_in">int</span> i = <span class="number">6</span>;</span><br><span class="line">    Console.WriteLine(i);</span><br><span class="line">    <span class="comment">//而第二种，只能无脑的输出</span></span><br><span class="line">    Console.WriteLine(<span class="number">6</span>);</span><br><span class="line"></span><br><span class="line">    <span class="comment">//同理，下面这两种方法的不同也一样</span></span><br><span class="line">    <span class="comment">//我们可以通过改变委托生成的委托实例来调用不同的方法</span></span><br><span class="line">    Action action = Show1;</span><br><span class="line">    action += Show2;</span><br><span class="line">    action.Invoke();</span><br><span class="line">    <span class="comment">//而第二种，只能无脑的调用</span></span><br><span class="line">    Show1();</span><br><span class="line">&#125;</span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Show1</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    Debug.Log(<span class="string">&quot;Show1&quot;</span>);</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="function"><span class="keyword">void</span> <span class="title">Show2</span>()</span></span><br><span class="line">&#123;</span><br><span class="line">    Debug.Log(<span class="string">&quot;Show2&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h2 id="二：事件。"><a href="#二：事件。" class="headerlink" title="二：事件。"></a>二：事件。</h2><h3 id="1-事件event的定义和调用。"><a href="#1-事件event的定义和调用。" class="headerlink" title="1.事件event的定义和调用。"></a>1.事件event的定义和调用。</h3><p><em>注：event事件，只允许作为类的成员变量(定义时不能在函数方法内部使用)，且仅在类的内部使用才可以，外部不得直接调用。</em></p>
+<figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">MyEventClass</span>&#123;</span><br><span class="line">    <span class="comment">//定义：访问修饰符+event+委托名+要定义的事件名称</span></span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">event</span> Action eventAction; <span class="comment">//外部调用eventAction只能通过+=或-=，或者下面的方法间接调用</span></span><br><span class="line">    <span class="keyword">public</span> Action defaultAction;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">public</span> <span class="keyword">void</span> <span class="title">Send</span>()  <span class="comment">//通过类中方法，可以让外部间接调用event</span></span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">if</span>(eventAction!= <span class="literal">null</span>)</span><br><span class="line">        &#123;</span><br><span class="line">            eventAction();</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line"></span><br><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">HelloWorld</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;   </span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        MyEventClass myEventClass= <span class="keyword">new</span> MyEventClass();</span><br><span class="line">        myEventClass.eventAction += Show1;  <span class="comment">//类中event对应的委托，只能通过+=来增加，不能赋值=</span></span><br><span class="line">        myEventClass.defaultAction = Show2; <span class="comment">//普通的Action委托，可以赋值=，也可以+=</span></span><br><span class="line"></span><br><span class="line">        <span class="comment">//myEventClass.eventAction();  //报错，因为event对应的，只能出现在+=或-=式子中</span></span><br><span class="line">        myEventClass.Send();  <span class="comment">//但是可以通过调用类中的方法来间接调用event</span></span><br><span class="line"></span><br><span class="line">        myEventClass.defaultAction();</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<h3 id="2-事件和委托的关系。"><a href="#2-事件和委托的关系。" class="headerlink" title="2.事件和委托的关系。"></a>2.事件和委托的关系。</h3><figure class="highlight c#"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title">HelloWorld</span> : <span class="title">MonoBehaviour</span></span><br><span class="line">&#123;</span><br><span class="line">    <span class="comment">//event事件声明时无需立刻注册一个方法</span></span><br><span class="line">    <span class="keyword">event</span> Action action;</span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Start</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        <span class="comment">//委托在声明时必须立刻为它注册一个方法，但有些时候并不是总想这样</span></span><br><span class="line">        Action action1 = Show1;</span><br><span class="line">        action1 += Show2;</span><br><span class="line">        action1.Invoke();</span><br><span class="line">        <span class="comment">//而事件无需声明时，就要立刻注册一个方法，我们想要它添加方法时就添加</span></span><br><span class="line">        action +=Show1;</span><br><span class="line">        action.Invoke();</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Update</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line"></span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Show1</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;Show1&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="function"><span class="keyword">void</span> <span class="title">Show2</span>()</span></span><br><span class="line">    &#123;</span><br><span class="line">        Debug.Log(<span class="string">&quot;Show2&quot;</span>);</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+<blockquote>
+<p><strong>本文为作者原创，请勿随意抄袭转载。</strong></p>
+</blockquote>
+
+  </div>
+  
+  
+    
+    <div class='footer'>
+       <!-- 参考资料、相关资料等 -->
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/19/unity笔记day1/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/19/unity%E7%AC%94%E8%AE%B0day1/">
-        <img itemprop="image" class='headimg' alt="unity笔记day1" src='https://s2.loli.net/2023/02/19/Exp4BTIVoN3Zalw.png'/>
-      </a>
+       <!-- 相关文章 -->
+      
+      <!-- 版权声明组件 -->
+      
+      <!-- 打赏组件 -->
+      
     </div>
   
   
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/19/unity%E7%AC%94%E8%AE%B0day1/"  itemprop="url">
-        unity笔记day1
-      </a>
-    </h2>
+
+
+  <div class='article-meta' id="bottom">
+    <div class='new-meta-box'>
+      
+        
+          <div class="new-meta-item date" itemprop="dateModified" datetime="2023-02-21T19:48:24+08:00">
+  <a class='notlink'>
+    <i class="fa-solid fa-edit fa-fw" aria-hidden="true"></i>
+    <p>更新于：2023年2月21日</p>
+  </a>
+</div>
+
+        
+      
+        
+          
   
-  <div class='md article-desc' itemprop="articleBody">
+  <div class="new-meta-item meta-tags"><a class="tag" href="/tags/Visual-Studio/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>Visual Studio</p></a></div> <div class="new-meta-item meta-tags"><a class="tag" href="/tags/c/" rel="nofollow"><i class="fa-solid fa-hashtag fa-fw" aria-hidden="true"></i><p>c#</p></a></div>
+  <span hidden itemprop="keywords">Visual Studio c#</span>
+
+
+        
+      
+        
+          
+  <div class="new-meta-item share -mob-share-list">
+  <div class="-mob-share-list share-body">
     
       
-        unity笔记第一天
+        <a class="-mob-share-qq" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://connect.qq.com/widget/shareqq/index.html?url=http://example.com/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/&title=c#笔记day12-委托与事件 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/15/k5TAO8viLu2DPaJ.jpg&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qq.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-qzone" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?url=http://example.com/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/&title=c#笔记day12-委托与事件 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/15/k5TAO8viLu2DPaJ.jpg&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/qzone.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+        <a class="-mob-share-weibo" title="" rel="external nofollow noopener noreferrer noopener"
+          
+          target="_blank" href="http://service.weibo.com/share/share.php?url=http://example.com/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/&title=c#笔记day12-委托与事件 - 唯梦依癸的博客&pics=https://s2.loli.net/2023/02/15/k5TAO8viLu2DPaJ.jpg&summary="
+          
+          >
+          
+            <img src="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" class="lazyload" data-srcset="https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/logo/128/weibo.png" srcset="data:image/gif;base64,R0lGODlhAQABAIAAAP///////yH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+          
+        </a>
+      
+    
+      
+    
       
     
   </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-19T23:08:52+08:00">2023-02-19</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/19/unity%E7%AC%94%E8%AE%B0day1/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
 </div>
 
-          </div>
+
+
         
       
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/18/c-笔记day11/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/">
-        <img itemprop="image" class='headimg' alt="c#笔记day11-多态" src='https://s2.loli.net/2023/02/18/VNPgmC2qwMjI5y1.jpg'/>
-      </a>
     </div>
-  
-  
+    <!-- Custom Files bottomMeta begin -->
     
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/"  itemprop="url">
-        c#笔记day11-多态
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.FileStream和StreamReader;2.多态;3.访问修饰符;4.值传递和引用传递;5.序列化和反序列化;6.部分类;7.密封类;8.重写ToString()方法。</p>
-    
+    <!-- Custom Files bottomMeta end -->
   </div>
+
+
   
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-18T22:16:30+08:00">2023-02-18</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
+  
+
+  
+    <div class="prev-next">
       
-        <div>
-          <a class='readmore' href='/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
+        <a class='prev' href='/2023/02/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/'>
+          <p class='title'><i class="fa-solid fa-chevron-left" aria-hidden="true"></i>设计模式</p>
+          <p class='content'> 设计模式(23种)
+一：单例模式。
+GoF中定义：
+“确认类只有一个对象，并提供一个全局的方法来获取这个对象”
+使用单例模式的前提：
+它只能产生一个对象且不能够被继承
+单例模式的优点：
+1.提...</p>
+        </a>
+      
+      
+        <a class='next' href='/2023/02/19/unity%E7%AC%94%E8%AE%B0day1/'>
+          <p class='title'>unity笔记day1<i class="fa-solid fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>unity笔记第一天</p>
+        </a>
       
     </div>
   
+  <!-- Custom Files postEnd begin-->
+  
+  <!-- Custom Files postEnd end-->
+</article>
 
-</div>
 
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/17/c-笔记day10/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/17/c-%E7%AC%94%E8%AE%B0day10/">
-        <img itemprop="image" class='headimg' alt="c#笔记day10-Hashtable、List、字典集合" src='https://s2.loli.net/2023/02/17/p9Fyxm5awSJAtXM.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/17/c-%E7%AC%94%E8%AE%B0day10/"  itemprop="url">
-        c#笔记day10-Hashtable、List、字典集合
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.Hashtable集合;2.简繁转换;3.Path类和File类;4.List泛型集合;5.字典集合。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-17T21:39:36+08:00">2023-02-17</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/17/c-%E7%AC%94%E8%AE%B0day10/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/16/c-笔记day9/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/16/c-%E7%AC%94%E8%AE%B0day9/">
-        <img itemprop="image" class='headimg' alt="c#笔记day9-里式转换" src='https://s2.loli.net/2023/02/18/FNDh3fymi2SnqKC.png'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/16/c-%E7%AC%94%E8%AE%B0day9/"  itemprop="url">
-        c#笔记day9-里式转换
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.里氏转换;2.protected访问修饰符;3.ArrayList。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-16T19:54:10+08:00">2023-02-16</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/16/c-%E7%AC%94%E8%AE%B0day9/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/15/c-笔记day8/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/15/c-%E7%AC%94%E8%AE%B0day8/">
-        <img itemprop="image" class='headimg' alt="c#笔记day8-字符串和继承" src='https://s2.loli.net/2023/02/14/ZPMXdnflTbxJamw.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/15/c-%E7%AC%94%E8%AE%B0day8/"  itemprop="url">
-        c#笔记day8-字符串和继承
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.命名空间;2.值类型和引用类型;3.字符串;4.继承。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-15T20:02:27+08:00">2023-02-15</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/15/c-%E7%AC%94%E8%AE%B0day8/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/14/c-笔记day7/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/14/c-%E7%AC%94%E8%AE%B0day7/">
-        <img itemprop="image" class='headimg' alt="c#笔记day7-面向对象和类" src='https://s2.loli.net/2023/02/13/aFSuytYgWB1bI8Z.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/14/c-%E7%AC%94%E8%AE%B0day7/"  itemprop="url">
-        c#笔记day7-面向对象和类
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.类的基本语法;2.属性;3.静态和非静态;4.构造函数;5.关键字;6.析构函数。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-14T20:23:20+08:00">2023-02-14</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/14/c-%E7%AC%94%E8%AE%B0day7/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/13/c-笔记day6/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/">
-        <img itemprop="image" class='headimg' alt="c#笔记day6-飞行棋" src='https://s2.loli.net/2023/02/12/W76K5ebnD1MUNRF.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/"  itemprop="url">
-        c#笔记day6-飞行棋
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.游戏头;2.初始化地图;3.绘制地图;4.输入玩家姓名;5.清屏;6.输出姓名等文本;7.游戏玩家位置限定;8.游戏内的逻辑;9.源码。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-13T18:24:07+08:00">2023-02-13</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/13/c-%E7%AC%94%E8%AE%B0day6/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-        
-          <div class='post-wrapper'>
-            <div class="post post-v3 white-box reveal shadow floatable blur"  itemscope itemtype="http://schema.org/Article" >
-  <link itemprop="mainEntityOfPage" href="http://example.com/2023/02/12/c-笔记day5/">
-  <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-    <meta itemprop="name" content="唯梦依癸的博客">
-  </span>
-  <span hidden itemprop="post" itemscope itemtype="http://schema.org/Post">
-    <meta itemprop="name" content="唯梦依癸的博客">
-    <meta itemprop="description" content="Jcm">
-  </span>
-  
-  
-  
-    <div class='headimg-div'>
-      <a class='headimg-a' href="/2023/02/12/c-%E7%AC%94%E8%AE%B0day5/">
-        <img itemprop="image" class='headimg' alt="c#笔记day5-方法" src='https://s2.loli.net/2023/02/12/glnf2OC9ZirGQbp.jpg'/>
-      </a>
-    </div>
-  
-  
-    
-    <h2 class="article-title"  itemprop="name headline">
-      <a href="/2023/02/12/c-%E7%AC%94%E8%AE%B0day5/"  itemprop="url">
-        c#笔记day5-方法
-      </a>
-    </h2>
-  
-  <div class='md article-desc' itemprop="articleBody">
-    
-      <p>1.方法;2.out、ref、params参数;3.方法重载;4.方法递归。</p>
-    
-  </div>
-  
-    <div class='meta-v3' line_style='solid'>
-      <div>
-        
-        <time itemprop="dateCreated datePublished" datetime="2023-02-12T19:44:56+08:00">2023-02-12</time>
-        
-          <span class="dot"></span>
-          <a class="category-link" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/">日常学习</a>
-          
-            <span hidden itemprop="about" itemscope itemtype="http://schema.org/Thing">
-              <a href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" itemprop="url"><span itemprop="name">日常学习</span></a>
-            </span>
-          
-        
-      </div>
-      
-        <div>
-          <a class='readmore' href='/2023/02/12/c-%E7%AC%94%E8%AE%B0day5/' itemprop="url">
-            阅读全文
-          </a>
-        </div>
-      
-    </div>
-  
-
-</div>
-
-          </div>
-        
-      
-    
-  </section>
-  
-    
-      <br>
-      <div class="prev-next">
-        
-        <p class="current">
-          1 / 2
-        </p>
-        
-          <a class="next" rel="next" href="/tags/Visual-Studio/page/2/">
-            <section class="post next white-box shadow floatable blur">
-              &nbsp;下一页&nbsp;<i class="fa-solid fa-chevron-right" aria-hidden="true"></i>
-            </section>
-          </a>
-        
-      </div>
-    
   
 
 
+  <article class="post white-box shadow floatable blur" id="comments">
+    <span hidden>
+      <meta itemprop="discussionUrl" content="/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/index.html#comments">
+    </span>
+    <p ct><i class='fa-solid fa-comments'></i> 评论</p>
     
-  
+
+    <div id="layoutHelper-comments"></div>
+
+  </article>
+
+
+
+
+
+
 </div>
 <aside id='l_side' itemscope itemtype="http://schema.org/WPSideBar">
   
@@ -3126,185 +2706,56 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
     
     
       
-<section class="widget blogger desktop mobile pjax">
-  <div class='content'>
-    
-      
-        <div class='avatar'>
-          <img no-lazy src='https://s2.loli.net/2023/02/06/YcCF7O8idhXqnLs.jpg'/>
-        </div>
-      
-    
-    
-      <div class='text'>
-        
-          <h2>唯梦依癸</h2>
-        
-        
-        
-          <p><span id="jinrishici-sentence">唯梦依癸的博客</span></p>
-          <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
-        
-      </div>
-    
-    
-      <div class="social-wrapper">
-        
-          
-            <a href="/"
-              class="social fa-solid fa-rss flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="mailto:2232352247@qq.com"
-              class="social fa-solid fa-envelope flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="https://github.com/jcm111859242"
-              class="social fab fa-github flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-          
-            <a href="/"
-              class="social fa-solid fa-headphones-alt flat-btn"
-              target="_blank"
-              rel="external nofollow noopener noreferrer">
-              
-            </a>
-          
-        
-      </div>
-    
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget category desktop pjax">
-    
-  <header>
-    
-      <a href='/blog/categories/'><i class="fa-solid fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <ul class="entry navigation">
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%95%99%E7%A8%8B/" href="/categories/%E6%95%99%E7%A8%8B/"
-            active-action="action-categoriesE69599E7A88B"
-            ><div class='name'>教程</div><div class='badge'>(4)</div></a></li>
-        
-          <li><a class="flat-box"
-            title="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/" href="/categories/%E6%97%A5%E5%B8%B8%E5%AD%A6%E4%B9%A0/"
-            active-action="action-categoriesE697A5E5B8B8E5ADA6E4B9A0"
-            ><div class='name'>日常学习</div><div class='badge'>(14)</div></a></li>
-        
-      </ul>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-  
-  <section class="widget tagcloud desktop mobile pjax">
-    
-  <header>
-    
-      <a href='/blog/tags/'><i class="fa-solid fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
-    
-  </header>
-
-
-    <div class='content'>
-      <a href="/tags/Github/" style="font-size: 14px; color: #999">Github</a> <a href="/tags/Makedown/" style="font-size: 14px; color: #999">Makedown</a> <a href="/tags/PicGo/" style="font-size: 14px; color: #999">PicGo</a> <a href="/tags/SM-MS/" style="font-size: 14px; color: #999">SM.MS</a> <a href="/tags/Visual-Studio/" style="font-size: 24px; color: #555">Visual Studio</a> <a href="/tags/c/" style="font-size: 20.67px; color: #6c6c6c">c#</a> <a href="/tags/unity/" style="font-size: 14px; color: #999">unity</a> <a href="/tags/%E5%89%8D%E7%AB%AF/" style="font-size: 14px; color: #999">前端</a> <a href="/tags/%E5%8D%9A%E5%AE%A2/" style="font-size: 17.33px; color: #828282">博客</a> <a href="/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/" style="font-size: 14px; color: #999">设计模式</a>
-    </div>
-  </section>
-
-
-    
-  
-
-  
-    
-    
-      
-
-<section class="widget desktop mobile pjax">
-  
-  <header>
-    
-      <i class="fa-solid fa-clock WISTERIA fa-fw" aria-hidden="true"></i><span class='name'>最近更新</span>
-    
-  </header>
-
-
-  <div class='content'>
-    <ul class="list entry navigation"><li><a class="widget-last" href="/2023/02/22/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/"><div class="item"><time>2023-02-21</time><span>日常学习</span></div><span>设计模式</span></a></li><li><a class="widget-last" href="/2023/02/08/c-%E7%AC%94%E8%AE%B0day1/"><div class="item"><time>2023-02-21</time><span>日常学习</span></div><span>c#笔记day1-基础</span></a></li><li><a class="widget-last" href="/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/"><div class="item"><time>2023-02-21</time><span>日常学习</span></div><span>c#笔记day12-委托与事件</span></a></li><li><a class="widget-last" href="/2023/02/19/unity%E7%AC%94%E8%AE%B0day1/"><div class="item"><time>2023-02-19</time><span>日常学习</span></div><span>unity笔记day1</span></a></li><li><a class="widget-last" href="/2023/02/18/c-%E7%AC%94%E8%AE%B0day11/"><div class="item"><time>2023-02-19</time><span>日常学习</span></div><span>c#笔记day11-多态</span></a></li></ul>
-  </div>
-</section>
-
-    
-  
-
-  
-    
-    
-      
-<section class="widget text desktop mobile pjax">
-  
-  <header>
-    
-      <a target="_blank" rel="noopener" href='https://github.com/jcm111859242'><i class="fab fa-github fa-fw" aria-hidden="true"></i><span class='name'>点个赞吧</span></a>
-    
-  </header>
-
-
-  <div class='content'>
-    
-      <p>感谢你能够来到我的博客，一步一个脚印，大家一起加油!</p>
-
-    
-  </div>
-</section>
-
     
   
 
 
 <div class="widget-sticky pjax">
 
+  
+  
+
+
+  <section class="widget toc-wrapper desktop mobile " id="toc-div" >
+    
+  <header>
+    
+      <i class="fa-solid fa-list fa-fw" aria-hidden="true"></i><span class='name'>本文目录</span>
+    
+  </header>
+
+
+    <div class='content'>
+        <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%B8%80%EF%BC%9A%E5%A7%94%E6%89%98%E3%80%82-%E5%BC%95%E7%94%A8%E7%B1%BB%E5%9E%8B"><span class="toc-text">一：委托。(引用类型)</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E5%A7%94%E6%89%98%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E4%BD%BF%E7%94%A8%E3%80%82"><span class="toc-text">1.委托的定义和使用。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-using-System%E5%91%BD%E5%90%8D%E7%A9%BA%E9%97%B4%E5%86%85%E7%BD%AE%E7%9A%84Action%E5%A7%94%E6%89%98%E3%80%82-%E6%95%88%E6%9E%9C%E5%92%8Cdelegate%E4%B8%80%E6%A0%B7%EF%BC%8C%E5%90%8C%E6%97%B6%E6%98%AF%E4%B8%8D%E5%B8%A6%E8%BF%94%E5%9B%9E%E5%80%BC%E7%9A%84%E5%A7%94%E6%89%98"><span class="toc-text">2.using System命名空间内置的Action委托。(效果和delegate一样，同时是不带返回值的委托)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#3-%E7%B3%BB%E7%BB%9F%E5%86%85%E7%BD%AE%E7%9A%84Func%E5%A7%94%E6%89%98%E3%80%82-%E5%B8%A6%E8%BF%94%E5%9B%9E%E5%80%BC%E7%9A%84%E5%A7%94%E6%89%98"><span class="toc-text">3.系统内置的Func委托。(带返回值的委托)</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#4-%E5%8C%BF%E5%90%8D%E6%96%B9%E6%B3%95%E3%80%81%E5%A4%9A%E6%92%AD%E5%A7%94%E6%89%98%E3%80%82"><span class="toc-text">4.匿名方法、多播委托。</span></a><ol class="toc-child"><li class="toc-item toc-level-4"><a class="toc-link" href="#%EF%BC%881%EF%BC%89%E5%8C%BF%E5%90%8D%E6%96%B9%E6%B3%95%E4%B8%8Elamda%E8%A1%A8%E8%BE%BE%E5%BC%8F%E3%80%82"><span class="toc-text">（1）匿名方法与lamda表达式。</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#%EF%BC%882%EF%BC%89%E5%A4%9A%E6%92%AD%E5%A7%94%E6%89%98%E3%80%82-%E4%BD%BF%E7%94%A8-%E5%92%8C-%E6%9D%A5%E6%B7%BB%E5%8A%A0%E5%92%8C%E7%A7%BB%E9%99%A4%E6%96%B9%E6%B3%95"><span class="toc-text">（2）多播委托。(使用+和-来添加和移除方法)</span></a></li></ol></li><li class="toc-item toc-level-3"><a class="toc-link" href="#5-%E5%A7%94%E6%89%98%E7%9A%84%E4%BD%9C%E7%94%A8%E4%B8%8E%E6%84%8F%E4%B9%89%E3%80%82"><span class="toc-text">5.委托的作用与意义。</span></a></li></ol></li><li class="toc-item toc-level-2"><a class="toc-link" href="#%E4%BA%8C%EF%BC%9A%E4%BA%8B%E4%BB%B6%E3%80%82"><span class="toc-text">二：事件。</span></a><ol class="toc-child"><li class="toc-item toc-level-3"><a class="toc-link" href="#1-%E4%BA%8B%E4%BB%B6event%E7%9A%84%E5%AE%9A%E4%B9%89%E5%92%8C%E8%B0%83%E7%94%A8%E3%80%82"><span class="toc-text">1.事件event的定义和调用。</span></a></li><li class="toc-item toc-level-3"><a class="toc-link" href="#2-%E4%BA%8B%E4%BB%B6%E5%92%8C%E5%A7%94%E6%89%98%E7%9A%84%E5%85%B3%E7%B3%BB%E3%80%82"><span class="toc-text">2.事件和委托的关系。</span></a></li></ol></li></ol>
+    </div>
+  </section>
+
+  
+
 </div>
 
 
 <!-- 没有 pjax 占位会报错 万恶的 pjax -->
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
+
+  <div class="pjax">
+    <!-- pjax占位 -->
+  </div>
 
   <div class="pjax">
     <!-- pjax占位 -->
@@ -3336,13 +2787,14 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </aside>
 
 
+
           <!--此文件用来存放一些不方便取值的变量-->
 <!--思路大概是将值藏到重加载的区域内-->
 
 <pjax>
 <script>
   window.pdata={}
-  pdata.ispage=false;
+  pdata.ispage=true;
   pdata.commentPath="";
   pdata.commentPlaceholder="";
   pdata.commentConfig={};
@@ -4021,7 +3473,7 @@ if (/*@cc_on!@*/false || (!!window.MSInputMethodContext && !!document.documentMo
 </script>
 
 
-  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/tags/Visual Studio/","name":"Visual Studio"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","description":"Jcm","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"wordCount":0,"image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}}]</script>
+  <script type="application/ld+json">[{"@context":"http://schema.org","@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},{"@context":"http://schema.org","@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","sameAs":["https://github.com/volantis-x"],"description":"Jcm"},{"@context":"http://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"item":{"@id":"http://example.com/","name":"唯梦依癸的博客"}},{"@type":"ListItem","position":2,"item":{"@id":"http://example.com/categories/日常学习/","name":"日常学习"}},{"@type":"ListItem","position":3,"item":{"@id":"http://example.com/2023/02/21/c-笔记day12/","name":"c#笔记day12-委托与事件"}}]},{"@context":"http://schema.org","@type":"WebSite","name":"唯梦依癸的博客","url":"http://example.com/","keywords":null,"description":"Jcm","author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/","description":"Jcm"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","url":"http://example.com/","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"potentialAction":{"@type":"SearchAction","name":"Site Search","target":{"@type":"EntryPoint","urlTemplate":"http://example.com?s={search_term_string}"},"query-input":"required name=search_term_string"}},{"@context":"http://schema.org","@type":"BlogPosting","headline":"c#笔记day12-委托与事件","description":"1.委托。2.事件。","inLanguage":"zh-CN","mainEntityOfPage":{"@type":"WebPage","@id":"http://example.com/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/"},"author":{"@type":"Person","name":"JCM","image":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png"},"url":"http://example.com/"},"publisher":{"@type":"Organization","name":"唯梦依癸的博客","logo":{"@type":"ImageObject","url":"https://unpkg.com/volantis-static@0.0.1654736714924/media/org.volantis/blog/favicon/android-chrome-192x192.png","width":192,"height":192}},"url":"http://example.com/2023/02/21/c-%E7%AC%94%E8%AE%B0day12/","wordCount":0,"datePublished":"2023-02-21T12:39:02.000Z","dateModified":"2023-02-21T11:48:24.629Z","articleSection":"日常学习","keywords":"Visual Studio,c#","image":{"@type":"ImageObject","url":"https://s2.loli.net/2023/02/21/hcwnIXgzUGA8OJL.png","width":1024,"height":768}}]</script>
 
 
 
